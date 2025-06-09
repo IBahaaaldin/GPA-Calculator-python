@@ -47,7 +47,7 @@ The **Ultimate GPA Calculator** was designed for university students who want to
 
 ## 📷 GUI Screenshot
 
-![GUI Preview](assets/gui_preview.png)
+![GUI Preview](assets/GUI_preview.png)
 
 ---
 
