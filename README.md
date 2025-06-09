@@ -1,12 +1,18 @@
-# 🎓 Ultimate GPA Calculator
+# 🎓 Ultimate GPA Calculator (Python Version)
 
-A complete GPA management system for students — includes both a robust **Command-Line Interface (CLI)** and a modern **Graphical User Interface (GUI)**. Built in Python, this tool simplifies academic GPA tracking, enhances productivity, and ensures accuracy through error handling, file integration, and reporting.
+![Python GPA Calculator Banner](assets/python_project_banner.png)
+
+![Python](https://img.shields.io/badge/Language-Python-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Version-1.0-brightgreen)
+
+A full-featured Python-based GPA management program for students. Built with a simple command-line interface and a Tkinter GUI for a better user experience.
 
 ---
 
 ## 👤 About the Developer
 
-This project was created by **IBahaaaldin**, a second-year Computer Science student with a focus on Artificial Intelligence. Passionate about building practical tools that solve real student problems, IBahaaaldin believes in clean code, useful interfaces, and continuous self-improvement through hands-on learning.
+This project was created by **IBahaaaldin**, a second-year Computer Science student with a focus on Artificial Intelligence. Passionate about building practical tools that solve real student problems using clean code, useful interfaces, and continuous self-improvement through hands-on learning.
 
 ---
 
@@ -15,80 +21,82 @@ This project was created by **IBahaaaldin**, a second-year Computer Science stud
 The **Ultimate GPA Calculator** was designed for university students who want to:
 
 - Track their GPA with ease
-- Save and load their academic data
-- Use either a terminal or GUI to manage their progress
-- Export clean reports for reference or printing
+- Use either CLI or GUI interface
+- Import course records from file
+- Handle invalid inputs with error checks
+- Export course summaries and GPA reports
 
 ---
 
-## 🧰 Features
+## ✨ Features
 
 ### ✅ CLI Version (`gpa_calculator.py`)
-
-- 📥 Load previous courses from `courses.csv`
-- ➕ Add new courses
-- ✏️ Edit existing entries (course name, grade, credits)
-- ❌ Remove courses by ID
-- 📊 Calculate GPA with full letter grade support (A to F)
-- 📤 Export GPA summary and course list to `gpa_report.txt`
-- 💾 Save progress for future sessions
+- Add/edit/remove courses
+- GPA calculation based on weighted credits
+- Import/export to CSV
+- Error handling and validation
 
 ### ✅ GUI Version (`gpa_calculator_gui.py`)
+- Built using **Tkinter**
+- Simple form to add courses
+- Table display of all entries
+- GPA calculation and data export
+- File import and GUI-based updates
 
-- 💻 Built with `Tkinter` for modern Python desktops
-- 📂 Import courses from CSV
-- ✍️ Add course entries with forms
-- 📋 Display table of all added courses
-- 🎯 Real-time GPA calculation
-- 📤 Export report to `gpa_gui_report.txt`
+---
+
+## 📷 GUI Screenshot
+
+![GUI Preview](assets/gui_preview.png)
 
 ---
 
 ## 📂 File Structure
 
 ```
-Ultimate-GPA-Calculator/
+gpa-calculator-python/
+├── src/                                # Python source code
+│   ├── gpa_calculator.py               # CLI-based GPA calculator
+│   └── gpa_calculator_gui.py           # GUI version using Tkinter
 │
-├── gpa_calculator.py         # CLI application
-├── gpa_calculator_gui.py     # GUI interface (Tkinter)
-├── courses.csv               # Sample: preloaded course data
-└── README.md                 # Project documentation
+├── data/                               # Input/output data files
+│   └── courses.csv                     # Example course data file
+│
+├── assets/                             # Visuals used in documentation
+│   ├── python_project_banner.png       # Header image for README
+│   └── gui_preview.png                 # GUI screenshot for README
+│
+├── LICENSE                             # MIT license
+└── README.md                           # Main documentation
 ```
 
 ---
 
-## ▶️ How to Use
+## ▶️ How to Run
 
-### Run CLI Version
-
+### Run CLI version:
 ```bash
-python gpa_calculator.py
+python3 src/gpa_calculator.py
 ```
 
-### Run GUI Version
-
+### Run GUI version:
 ```bash
-python gpa_calculator_gui.py
+python3 src/gpa_calculator_gui.py
 ```
 
-Ensure Python 3 is installed and required modules like `tkinter` are available.
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 🚀 Future Ideas
+## 🔁 Related Projects
 
-- Add semester/year filtering
-- Visual GPA graphs
-- GPA prediction feature
-- Database integration
+**Check out the Java version of this project:**  
+👉 [GPA Calculator (Java)](https://github.com/IBahaaaldin/gpa-calculator-java)
 
 ---
 
-## 📬 Contact
-
-For feedback or collaboration:  
-**GitHub**: [IBahaaaldin](https://github.com/IBahaaaldin)
-
----
-
-_This project reflects the growth and capabilities of an aspiring software developer with a clear goal: building smart tools for real people._
+_This project reflects the mindset of a student solving real academic challenges with professional-grade code and design._
